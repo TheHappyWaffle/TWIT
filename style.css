@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(71, 43, 17);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 15px;
+    max-width: 750px;
+    margin: auto;
+    font-family: "Fredoka", sans-serif;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    font-size: 15px;
+    max-width: 750px;
+    margin: auto;
+    font-family: "Fredoka", sans-serif;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+.header{
+    font-size: 25px;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+}
